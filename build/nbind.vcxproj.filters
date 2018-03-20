@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\sources">
+      <UniqueIdentifier>{86C8AD1E-FC7A-67EB-E9B9-DB2BD95299F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\sources\cc">
+      <UniqueIdentifier>{51880FAC-3069-9662-C0F3-33C329C88A05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind">
+      <UniqueIdentifier>{DF6CD275-9ABE-46B1-B96F-D287CF753DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind">
+      <UniqueIdentifier>{DF6CD275-9ABE-46B1-B96F-D287CF753DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind">
+      <UniqueIdentifier>{DF6CD275-9ABE-46B1-B96F-D287CF753DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind\src\v8">
+      <UniqueIdentifier>{946EAFF9-E694-C502-F1AD-017A2D933CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind">
+      <UniqueIdentifier>{DF6CD275-9ABE-46B1-B96F-D287CF753DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind\src\v8">
+      <UniqueIdentifier>{946EAFF9-E694-C502-F1AD-017A2D933CD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:">
+      <UniqueIdentifier>{E5D29F2B-0177-9942-CA95-0FF700094F89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects">
+      <UniqueIdentifier>{7CAFA559-49D5-0913-BD41-C91CD6F35482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen">
+      <UniqueIdentifier>{B5F5BF5B-9F59-151C-6371-FA2237A30E33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen\NJS">
+      <UniqueIdentifier>{35901BF2-7011-D6F7-7114-74DE043E66E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows">
+      <UniqueIdentifier>{5AC43890-4E43-A0E7-F592-D9876475F8D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows\ProcessDump">
+      <UniqueIdentifier>{EFE465C5-ED91-EAD1-C7DC-7E91E96325B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows\ProcessDump\ls-process-dump">
+      <UniqueIdentifier>{1DF3257F-5B15-D99B-DC31-A413320BAE32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows\ProcessDump\ls-process-dump\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows\ProcessDump\ls-process-dump\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows\ProcessDump\ls-process-dump\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind">
+      <UniqueIdentifier>{DF6CD275-9ABE-46B1-B96F-D287CF753DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\node_modules\nbind\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sources\cc\all.cc">
+      <Filter>..\sources\cc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\node_modules\nbind\src\common.cc">
+      <Filter>..\node_modules\nbind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\node_modules\nbind\src\reflect.cc">
+      <Filter>..\node_modules\nbind\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\node_modules\nbind\src\v8\Buffer.cc">
+      <Filter>..\node_modules\nbind\src\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\node_modules\nbind\src\v8\Binding.cc">
+      <Filter>..\node_modules\nbind\src\v8</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows\ProcessDump\ls-process-dump\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>D:\Projects\SourceOpen\NJS\Belajar Electron 1.8.x untuk Platform Windows\ProcessDump\ls-process-dump\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\binding.gyp">
+      <Filter>..</Filter>
+    </None>
+    <None Include="..\node_modules\nbind\src\symbols.txt">
+      <Filter>..\node_modules\nbind\src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -4,6 +4,8 @@
   "description": "Process explorer with Electron",
   "main": "index.js",
   "scripts": {
+    "install": "electron-rebuild",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/lusfikars/ls-process-dump/issues"
   },
-  "homepage": "https://github.com/lusfikars/ls-process-dump#readme"
+  "homepage": "https://github.com/lusfikars/ls-process-dump#readme",
+  "dependencies": {
+    "nbind": "^0.3.15",
+    "os-utils": "0.0.14"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-rebuild": "^1.7.3"
+  }
 }

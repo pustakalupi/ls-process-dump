@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Web2PDF Grabber</title>
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="chart_js/Chart.bundle.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
+  </head>
+  <body>
+    <div class="container-fluid d-flex h-100 flex-column ">
+      <div class="row alert alert-light fill d-flex">
+          <div class="col-12">
+              <ul id="config-tabs" class="nav nav-tabs">
+                  <li class="nav-item"><a class="nav-link active" href="#cpu-percent" data-toggle="tab">CPU(%)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#memory-percent" data-toggle="tab">Memory(%)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#process-list" data-toggle="tab">Process List</a></li>
+              </ul>
+              <div class="tab-content">
+                  <div id="cpu-percent" class="tab-pane fade show active" role="tabpanel">
+                      <div class="row">
+                          <div class="form-group">
+                          </div>
+                          <div class="col-12">
+                              <div class="form-group">
+                              </div>
+                              <div class="chart-container">
+                                    <canvas id="cpuUsageChart" ></canvas>
+                              </div>
+                              
+                            </div>
+                      </div>
+                  </div>
+                  <div id="memory-percent" class="tab-pane fade" role="tabpanel">
+                        <div class="row">
+                            <div class="form-group">
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                </div>
+                                <div class="chart-container">
+                                        <canvas id="memoryUsageChart" ></canvas>
+                                    </div>
+                                
+                              </div>
+                        </div>
+                    </div>
+                  <div id="process-list" class="tab-pane fade" role="tabpanel">
+                      <div class="form-group">
+                      </div>
+                      <div id="abcde" class="table-responsive">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">exeFileName</th>
+                              <th scope="col">size</th>
+                              <th scope="col">usageCount</th>
+                              <th scope="col">processID</th>
+                              <th scope="col">moduleID</th>
+                              <th scope="col">threadCount</th>
+                              <th scope="col">parentProcessID</th>
+                              <th scope="col">basePriority</th>
+                              <th scope="col">flags</th>
+                              <th scope="col">processVMUsage</th>
+                              <th scope="col">processRAMUsage</th>
+                            </tr>
+                          </thead>
+                          <tbody id="process-table">
+                           
+                          </tbody>
+                        </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>

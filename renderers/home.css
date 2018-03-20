@@ -1,0 +1,32 @@
+body {
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+html,body{
+  height:100%;
+}
+
+.fill {
+  flex:1;
+}
+
+canvas {
+  border: 1px dotted red;
+}
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 80vh;
+  width: 90vw;
+}
+
+#abcde{
+  position: relative;
+  margin: auto;
+  height: 80vh;
+  width: 90vw;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
