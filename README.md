@@ -1,14 +1,14 @@
 # ls-process-dump
 Process explorer with Electron
 
-#how to rebuild c++ addon
+# how to rebuild c++ addon
 .\node_modules\.bin\electron-rebuild.cmd
 OR
 place "install": "electron-rebuild" in package.json.
 
-#how to install:
+# how to install:
 npm install
 
-#how to start:
+# how to start:
 npm start
 
