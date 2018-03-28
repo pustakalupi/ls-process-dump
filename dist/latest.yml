@@ -1,9 +1,0 @@
-version: 1.0.0
-files:
-  - url: ls-process-dump-setup-1.0.0.exe
-    sha512: R5xAsDUEJw3nsKY1YYf+h6CxTHXUeD70zIEQ1dYZryh4nM2G7aNT0t9QS/6EhTinm8WPUieirXYUqccM6Q4ibw==
-    size: 37693612
-path: ls-process-dump-setup-1.0.0.exe
-sha512: R5xAsDUEJw3nsKY1YYf+h6CxTHXUeD70zIEQ1dYZryh4nM2G7aNT0t9QS/6EhTinm8WPUieirXYUqccM6Q4ibw==
-sha2: 396c7faa57e428d6be0b42a3e937e8391b77882f48725debe2f6a945aed3e43f
-releaseDate: '2018-03-28T21:22:37.030Z'
