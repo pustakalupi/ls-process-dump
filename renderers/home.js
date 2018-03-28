@@ -1,7 +1,7 @@
 const {ipcRenderer} = require('electron');
 var osu = require('os-utils');
 var nbind = require('nbind');
-var lib = nbind.init().lib;
+var lib = nbind.init("build/Release").lib;
 
 var options = {
     maintainAspectRatio: false,
@@ -48,15 +48,10 @@ $( document ).ready(function() {
                 <th scope="row">` + index + `</th>
                 <td>`+ item.exeFileName +`</td>
                 <td>`+ item.size +`</td>
-                <td>`+ item.usageCount +`</td>
                 <td>`+ item.processID +`</td>
-                <td>`+ item.moduleID +`</td>
                 <td>`+ item.threadCount +`</td>
                 <td>`+ item.parentProcessID +`</td>
                 <td>`+ item.basePriority +`</td>
-                <td>`+ item.flags +`</td>
-                <td>`+ item.processVMUsage +`</td>
-                <td>`+ item.processRAMUsage +`</td>
               </tr>`
             );
             //console.log(item.processVMUsage + "," + item.exeFullPath);

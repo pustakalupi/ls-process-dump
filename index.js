@@ -91,18 +91,3 @@ app.on('activate', () => {
         createWindow();
     }
 });
-
-//
-ipcMain.on('open-file', (event, path) => {
-    dialog.showOpenDialog({
-        properties: ['openDirectory']
-    },
-    function (fileNames) {
-        if(fileNames === undefined){
-            console.log("No file selected");
-        }else{           
-            console.log(fileNames[0]);
-            win.webContents.send('set-directory-path', fileNames[0]);
-        }
-    });
-});

@@ -6,7 +6,21 @@
   "scripts": {
     "install": "node-gyp configure && node-gyp rebuild --target=1.8.4 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
     "start": "electron .",
+    "dist": "build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "space.lusfikars.processdump",
+    "files": [
+      "!build/*.*"
+    ],
+    "extraFiles": [
+      "build/Release/nbind.node"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
   },
   "repository": {
     "type": "git",
@@ -23,6 +37,7 @@
     "os-utils": "0.0.14"
   },
   "devDependencies": {
-    "electron": "^1.8.4"
+    "electron": "^1.8.4",
+    "electron-builder": "^20.8.1"
   }
 }
