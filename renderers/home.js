@@ -22,20 +22,6 @@ var options = {
 };
 
 $( document ).ready(function() {
-    $("#browse").click(function(){
-        if($("#btn-start").hasClass( "disabled" ) == true){
-            return;
-        }
-
-        ipcRenderer.send('open-file', () => {
-            console.log("Event sent.");
-        });
-    });
-
-    ipcRenderer.on('set-directory-path', (event, arg) => {
-        $("#browse-result").val(arg);
-    });
-
     showCPUChart();
     showMemoryChart();
 
